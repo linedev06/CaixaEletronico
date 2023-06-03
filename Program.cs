@@ -47,11 +47,67 @@ restante = restante % 2;
 
  Console.WriteLine($"O caixa deve entregar: ");
 
- if (notas200 > 0) Console.WriteLine($"{notas200} nota(s) de R$200,00");
-if (notas100 > 0) Console.WriteLine($"{notas100} nota(s) de R$100,00");
-if (notas50 > 0) Console.WriteLine($"{notas50} nota(s) de R$50,00");
-if (notas20 > 0) Console.WriteLine($"{notas20} nota(s) de R$20,00");
-if (notas10 > 0) Console.WriteLine($"{notas10} nota(s) de R$10,00");
-if (notas5 > 0) Console.WriteLine($"{notas5} nota(s) de R$5,00");
-if (notas2 > 0) Console.WriteLine($"{notas2} nota(s) de R$2,00");
-if (notas1 > 0) Console.WriteLine($"{notas1} nota(s) de R$1,00");
+
+ if (notas200 >= 1 ) 
+ {
+ Console.Write($"{notas200} nota(s) de R$");
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+ Console.WriteLine("200,00");
+ Console.ResetColor();
+ }
+
+if (notas100 >= 1) 
+{
+Console.Write($"{notas100} nota(s) de R$");
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+Console.WriteLine("100,00");
+Console.ResetColor();
+}
+
+if (notas50 >= 1) 
+{
+Console.Write($"{notas50} nota(s) de R$");
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+Console.WriteLine("50,00");
+Console.ResetColor();
+}
+
+if (notas20 >= 1) 
+{
+Console.Write($"{notas20} nota(s) de R$");
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+Console.WriteLine("20,00");
+Console.ResetColor();
+}
+
+if (notas10 >= 1) 
+{
+Console.Write($"{notas10} nota(s) de R$");
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+Console.WriteLine("10,00");
+Console.ResetColor();
+}
+
+if (notas5 >= 1 ) 
+{
+Console.Write($"{notas5} nota(s) de R$");
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+Console.WriteLine("5,00");
+Console.ResetColor();
+}
+
+if (notas2 >= 1) 
+{
+Console.Write($"{notas2} nota(s) de R$");
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+Console.WriteLine("2,00");
+Console.ResetColor();
+}
+
+if (notas1 >= 1) 
+{
+Console.Write($"{notas1} nota(s) de R$");
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+Console.WriteLine("1,00");
+Console.ResetColor();
+}
