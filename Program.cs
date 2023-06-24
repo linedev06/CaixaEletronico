@@ -177,6 +177,86 @@ Console.WriteLine("║ ___________________________ ║");
        Console.WriteLine("║                             ║");
        Console.WriteLine("╚═════════════════════════════╝");
 
+Thread.Sleep(2000);
+
+
+Console.WriteLine("╔═════════════════════════════╗");
+       Console.WriteLine("║                             ║");
+       Console.WriteLine("║   ╔═════════════════════╗   ║");
+       Console.WriteLine("║   ║                     ║   ║");
+
+Console.WriteLine("║   ║                     ║   ║");
+ Console.WriteLine("        INSIRA O CARTÃO");
+ 
+Console.WriteLine("║   ║                     ║   ║");
+       Console.WriteLine("║   ║                     ║   ║");
+       Console.WriteLine("║   ╚═════════════════════╝   ║");
+       Console.WriteLine("║                             ║");
+       Console.WriteLine("║ ___________________________ ║");
+Console.WriteLine("║  ________________________   ║");
+Console.WriteLine("║  |     |     |     |     |  ║");
+Console.WriteLine("║  |  1  |  2  |  3  |  4  |  ║");
+Console.WriteLine("║  |_____|_____|_____|_____|  ║");
+Console.WriteLine("║  |     |     |     |     |  ║");
+Console.WriteLine("║  |  5  |  6  |  7  |  8  |  ║");
+Console.WriteLine("║  |_____|_____|_____|_____|  ║");
+Console.WriteLine("║  |     |     |     |     |  ║");
+Console.WriteLine("║  |  #  |  9  |  0  |  *  |  ║");
+Console.WriteLine("║  |_____|_____|_____|_____|  ║");
+Console.WriteLine("║ ___________________________ ║");
+       Console.WriteLine("║                             ║");
+       Console.WriteLine("║                             ║");
+       Console.WriteLine("║                             ║");
+       Console.WriteLine("║   ╔══════════════════════╗  ║");
+       Console.WriteLine("║   ║                      ║  ║");
+       Console.WriteLine("║   ║                      ║  ║");
+       Console.WriteLine("║   ╚══════════════════════╝  ║");
+       Console.WriteLine("║                             ║");
+       Console.WriteLine("╚═════════════════════════════╝");
+       Console.ReadLine();
+
+Thread.Sleep(2000);
+
+
+Console.WriteLine("╔═════════════════════════════╗");
+       Console.WriteLine("║                             ║");
+       Console.WriteLine("║   ╔═════════════════════╗   ║");
+       Console.WriteLine("║   ║                     ║   ║");
+
+Console.WriteLine("║   ║                     ║   ║");
+ Console.WriteLine("        DIGITE A SENHA ");
+Console.WriteLine("           DO CARTÃO                     ");
+Console.WriteLine("║   ║                     ║   ║");
+       Console.WriteLine("║   ║                     ║   ║");
+       Console.WriteLine("║   ╚═════════════════════╝   ║");
+       Console.WriteLine("║                             ║");
+       Console.WriteLine("║ ___________________________ ║");
+Console.WriteLine("║  ________________________   ║");
+Console.WriteLine("║  |     |     |     |     |  ║");
+Console.WriteLine("║  |  1  |  2  |  3  |  4  |  ║");
+Console.WriteLine("║  |_____|_____|_____|_____|  ║");
+Console.WriteLine("║  |     |     |     |     |  ║");
+Console.WriteLine("║  |  5  |  6  |  7  |  8  |  ║");
+Console.WriteLine("║  |_____|_____|_____|_____|  ║");
+Console.WriteLine("║  |     |     |     |     |  ║");
+Console.WriteLine("║  |  #  |  9  |  0  |  *  |  ║");
+Console.WriteLine("║  |_____|_____|_____|_____|  ║");
+Console.WriteLine("║ ___________________________ ║");
+       Console.WriteLine("║                             ║");
+       Console.WriteLine("║                             ║");
+       Console.WriteLine("║                             ║");
+       Console.WriteLine("║   ╔══════════════════════╗  ║");
+       Console.WriteLine("║   ║                      ║  ║");
+       Console.WriteLine("║   ║   ╔══════════════╗   ║  ║");
+       Console.WriteLine("║   ╚═══║═══  ════  ═══║═══╝  ║");
+       Console.WriteLine("║       ║              ║      ║");
+       Console.WriteLine("╚═══════║    CARTÃO    ║══════╝");
+       Console.WriteLine("        ║      DE      ║         ");
+       Console.WriteLine("        ║    CRÉDIO    ║        ");
+       Console.WriteLine("        ║              ║      ");
+       Console.WriteLine("        ║              ║         ");
+       Console.WriteLine("        ╚══════════════╝         ");
+       Console.ReadLine();
 
 
 Thread.Sleep(2000);
@@ -209,17 +289,23 @@ Console.WriteLine("║  |     |     |     |     |  ║");
 Console.WriteLine("║  |  #  |  9  |  0  |  *  |  ║");
 Console.WriteLine("║  |_____|_____|_____|_____|  ║");
 Console.WriteLine("║ ___________________________ ║");
-      Console.WriteLine("║                             ║");
+ Console.WriteLine("║                             ║");
        Console.WriteLine("║                             ║");
-       Console.WriteLine("║  ╔═══════════════════════╗  ║");
-       Console.WriteLine("║  ║                       ║  ║");
-       Console.WriteLine("║  ║                       ║  ║");
-       Console.WriteLine("║  ╚═══════════════════════╝  ║");
        Console.WriteLine("║                             ║");
-       Console.WriteLine("╚═════════════════════════════╝");
+       Console.WriteLine("║   ╔══════════════════════╗  ║");
+       Console.WriteLine("║   ║                      ║  ║");
+       Console.WriteLine("║   ║   ╔══════════════╗   ║  ║");
+       Console.WriteLine("║   ╚═══║═══  ════  ═══║═══╝  ║");
+       Console.WriteLine("║       ║              ║      ║");
+       Console.WriteLine("╚═══════║    CARTÃO    ║══════╝");
+       Console.WriteLine("        ║      DE      ║         ");
+       Console.WriteLine("        ║    CRÉDIO    ║        ");
+       Console.WriteLine("        ║              ║      ");
+       Console.WriteLine("        ║              ║         ");
+       Console.WriteLine("        ╚══════════════╝         ");
  saque = Console.ReadLine()!;
 
-if (saque == "s")
+if (saque == "S")
 {
 Thread.Sleep(2000);
 Console.WriteLine("╔═════════════════════════════╗");
@@ -247,14 +333,20 @@ Console.WriteLine("║  |     |     |     |     |  ║");
 Console.WriteLine("║  |  #  |  9  |  0  |  *  |  ║");
 Console.WriteLine("║  |_____|_____|_____|_____|  ║");
 Console.WriteLine("║ ___________________________ ║");
-        Console.WriteLine("║                             ║");
+ Console.WriteLine("║                             ║");
        Console.WriteLine("║                             ║");
-       Console.WriteLine("║  ╔═══════════════════════╗  ║");
-       Console.WriteLine("║  ║                       ║  ║");
-       Console.WriteLine("║  ║                       ║  ║");
-       Console.WriteLine("║  ╚═══════════════════════╝  ║");
        Console.WriteLine("║                             ║");
-       Console.WriteLine("╚═════════════════════════════╝");
+       Console.WriteLine("║   ╔══════════════════════╗  ║");
+       Console.WriteLine("║   ║                      ║  ║");
+       Console.WriteLine("║   ║   ╔══════════════╗   ║  ║");
+       Console.WriteLine("║   ╚═══║═══  ════  ═══║═══╝  ║");
+       Console.WriteLine("║       ║              ║      ║");
+       Console.WriteLine("╚═══════║    CARTÃO    ║══════╝");
+       Console.WriteLine("        ║      DE      ║         ");
+       Console.WriteLine("        ║    CRÉDIO    ║        ");
+       Console.WriteLine("        ║              ║      ");
+       Console.WriteLine("        ║              ║         ");
+       Console.WriteLine("        ╚══════════════╝         ");
 
 valorSaque = Convert.ToInt32(Console.ReadLine());
 
@@ -370,17 +462,23 @@ Console.WriteLine("║  |     |     |     |     |  ║");
 Console.WriteLine("║  |  #  |  9  |  0  |  *  |  ║");
 Console.WriteLine("║  |_____|_____|_____|_____|  ║");
 Console.WriteLine("║ ___________________________ ║");
+ Console.WriteLine("║                             ║");
        Console.WriteLine("║                             ║");
        Console.WriteLine("║                             ║");
-       Console.WriteLine("║  ╔═══════════════════════╗  ║");
-       Console.WriteLine("║  ║                       ║  ║");
-       Console.WriteLine("║  ║                       ║  ║");
-       Console.WriteLine("║  ╚═══════════════════════╝  ║");
-       Console.WriteLine("║                             ║");
-       Console.WriteLine("╚═════════════════════════════╝");
+       Console.WriteLine("║   ╔══════════════════════╗  ║");
+       Console.WriteLine("║   ║                      ║  ║");
+       Console.WriteLine("║   ║   ╔══════════════╗   ║  ║");
+       Console.WriteLine("║   ╚═══║═══  ════  ═══║═══╝  ║");
+       Console.WriteLine("║       ║              ║      ║");
+       Console.WriteLine("╚═══════║    CARTÃO    ║══════╝");
+       Console.WriteLine("        ║      DE      ║         ");
+       Console.WriteLine("        ║    CRÉDIO    ║        ");
+       Console.WriteLine("        ║              ║      ");
+       Console.WriteLine("        ║              ║         ");
+       Console.WriteLine("        ╚══════════════╝         ");
 }
 
-else if (saque == "d")
+else if (saque == "D")
 
 {
 
