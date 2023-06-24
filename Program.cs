@@ -1,4 +1,9 @@
-﻿﻿
+﻿﻿ decimal restante, valorSaque;
+
+int notas200, notas100, notas50, notas20, notas10, notas5, notas2, notas1, corDefinida;
+
+string saque;
+
        Console.WriteLine("╔═════════════════════════════╗");
        Console.WriteLine("║                             ║");
        Console.WriteLine("║   ╔═════════════════════╗   ║");
@@ -41,12 +46,7 @@ Console.WriteLine("║ ___________________________ ║");;
        Console.WriteLine("║                             ║");
        Console.WriteLine("╚═════════════════════════════╝");
 
-       decimal restante, valorSaque;
-
-int notas200, notas100, notas50, notas20, notas10, notas5, notas2, notas1, corDefinida;
-
-string saque;
-
+      
 
 
 
